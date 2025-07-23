@@ -80,7 +80,7 @@ def get_circuits() -> flask.Response:
         return flask.jsonify({'error': str(e)}), 500
 
 
-@app.route('/quali-prediction', methds=['POST'])
+@app.route('/quali-prediction', methods=['POST'])
 def quali_prediction() -> flask.Response:
     """
     Predicts the qualifying results for the latest F1 Grand Prix

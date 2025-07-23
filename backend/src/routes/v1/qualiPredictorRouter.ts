@@ -1,6 +1,6 @@
 import express from "express";
 
-import qualiPredictorController from "../../controllers/qualiPredictorControlller";
+import qualiPredictorController from "../../controllers/qualiPredictorController";
 
 const qualiPredictorRouter = express.Router();
 
